@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario pre-inscripcion IPEC</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>IPEC Santo Domingo</h1>
+            <p>Formulario pre-matricula IPEC Santo Domingo 2027</p>
+            <img src="Imagenes/logo_IPEC.png">
+        </header>
+
+        <div class="contenedor">
+            <form id="formulario">
+                <fieldset>
+                    <legend>Datos del estudiante</legend> 
+                    <div class="fila">
+                        <div class="grupo">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" placeholder="Nombre">
+                        </div>
+
+                    <div class="fila">
+                        <div class="grupo">
+                            <label for="edad">Edad</label>
+                            <input type="number" id="edad" min="5" max="80" placeholder="Digite la edad">
+                        </div>
+
+                        <div class="grupo">
+                        <label for="Nacionalidad">Nacionalidad</label>
+                        <select id="Nacionalidad">
+                            <option value="">Seleccione una opcion</option>
+                            <option value="Costarricense">Costarricense</option>
+                            <option value="Nicaragüense">Nicaragüense</option>
+                            <option value="Panameño">Panameño</option>
+                            <option value="Colombiano">Colombiano</option>
+                            <option value="Argentino">Argentino</option>
+                        </select>
+                    </div>
+
+                    <div class="grupo">
+                        <label for="Genero">Genero:</label>
+                        <select id="Genero">
+                            <option value="">Seleccione una opcion</option>
+                            <option value="Masculino">Masculino</option>
+                            <option value="Femenino">Femenino</option>
+                            <option value="No binario">No binario</option>
+                        </select>
+                    </div>
+
+                        <div class="grupo">
+                        <label for="Direccion">Direccion exacta</label>
+                        <input type="text" id="Direccion"placeholder="Direccion">
+                    </div>
+
+                     <div class="fila">
+                        <div class="grupo">
+                            <label for="telefono">telefono</label>
+                            <input type="tel" id="telefono" placeholder="Telefono">
+                        </div>
+                        <div class="">
+                            <label for="correo">Correo Electronico</label>
+                            <input type="email" id="correo" placeholder="ejemplo@correo.com">
+                        </div>
+                    </div>
+                    
+                    </div>
+                </fieldset>
+
+
+
+                <fieldset>
+                   <fieldset>
+                    <legend>Datos del encargado</legend> 
+                    <div class="fila">
+                        <div class="grupo">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" placeholder="Nombre">
+                        </div>
+
+                    <div class="fila">
+                        <div class="grupo">
+                            <label for="edad">Edad</label>
+                            <input type="number" id="edad" min="5" max="80" placeholder="Digite la edad">
+                        </div>
+
+                        <div class="grupo">
+                        <label for="Nacionalidad">Nacionalidad</label>
+                        <select id="Nacionalidad">
+                            <option value="">Seleccione una opcion</option>
+                            <option value="Costarricense">Costarricense</option>
+                            <option value="Nicaragüense">Nicaragüense</option>
+                            <option value="Panameño">Panameño</option>
+                            <option value="Colombiano">Colombiano</option>
+                            <option value="Argentino">Argentino</option>
+                        </select>
+                    </div>
+
+
+                     <div class="fila">
+                        <div class="grupo">
+                            <label for="telefono">telefono</label>
+                            <input type="tel" id="telefono" placeholder="Telefono">
+                        </div>
+
+                    <div class="grupo">
+                        <label for="Grado">Grado escolaridad:</label>
+                        <select id="Grado">
+                            <option value="">Seleccione una opcion</option>
+                            <option value="Colegio">Colegio incompleto</option>
+                            <option value="BachilleratoEd">Bachillerato educacion media</option>
+                            <option value="Tecnico">Tecnico en educacion media</option>
+                            <option value="BachilleratoU">Bachillerato en universidad</option>
+                            <option value="Licenciatura">Licenciatura</option>
+                        </select>
+                    </div>
+
+
+                        <div class="">
+                            <label for="correo">Correo Electronico</label>
+                            <input type="email" id="correo" placeholder="ejemplo@correo.com">
+                        </div>
+                    </div>
+
+                    <div class="grupo">
+                        <label for="parentesco">Parentesco</label>
+                        <select id="parentesco">
+                            <option value="">Seleccione una opcion</option>
+                            <option value="Madre">Madre</option>
+                            <option value="Padre">Padre</option>
+                            <option value="Tia/Tio">Tia/Tio</option>
+                        </select>
+                    </div>
+                    </div>
+                </div>
+                </fieldset>
+
+
+
+                   <fieldset>
+                    <legend>Formacion academica</legend> 
+                    <div class="fila">
+                        <div class="grupo">
+                            <label for="Centroeducativo">Centro educativo de procedencia</label>
+                            <input type="text" id="Centroeducativo" placeholder="Centro educativo">
+                        </div>
+
+
+                        <div class="grupo">
+                        <label for="Nacionalidad">¿Has repetido algun grado?</label>
+                        <select id="Nacionalidad">
+                            <option value="">Seleccione una opcion</option>
+                            <option value="Positivo">Si</option>
+                            <option value="Negativo">No</option>
+                        </select>
+                    </div>
+                </div>
+                </fieldset>
+
+
+
+                <fieldset>
+                    <legend>Modalidad a matricular</legend> 
+                    <div class="fila">
+                        
+                        <div class="grupo">
+                        <label for="PlanEstudio">Plan de estudio a elegir</label>
+                        <select id="PlanEstudio">
+                            <option value="">Seleccione una opcion</option>
+                            <option value="Primaria">I nivel (Primaria)</option>
+                            <option value="Secundaria">II nivel (septimo, octavo y noveno)</option>
+                            <option value="SecundariaUltimo">III nivel (Decimo, undecimo)</option>
+                        </select>
+                    </div>
+
+                    <div class="grupo">
+                        <label for="EspecialidadTec">Especialidad tecnica a elegir</label>
+                        <select id="EspecialidadTec">
+                            <option value="">Seleccione una opcion</option>
+                            <option value="DW">Desarrollo web</option>
+                            <option value="SO">Salud ocupacional</option>
+                            <option value="SE">Secretariado ejecutivo</option>
+                            <option value="ALD">Administracion, logistica y distribucion</option>
+                            <option value="CF">Contabilidad y finanzas</option>
+                            <option value="ECSC">Ejecutivo comercial y servicio al cliente</option>
+                        </select>
+                    </div>
+
+                    <div class="grupo">
+                        <label for="CursosLibres">Cursos libres</label>
+                        <select id="CursosLibres">
+                            <option value="">Seleccione una opcion</option>
+                            <option value="TM">Taller de musica</option>
+                            <option value="CC">Corte y confeccion</option>
+                            <option value="C">Computacion</option>
+                            <option value="PB">Preparacion de bebidas</option>
+                            <option value="ME">Montajes electricos</option>
+                            <option value="EC">Elaboracion de confites</option>
+                            <option value="TP">Taller de pintura</option>
+                            <option value="AC">Alta costura</option>
+                            <option value="IC">Ingles conversacional</option>
+                            <option value="CA">Confeccion de accesorios</option>
+                        </select>
+                    </div>
+
+                </div>
+                </fieldset>
+        
+                <div class="grupo">
+                        <label for="urgencia">Nivel de urgencia</label>
+                        <select id="urgencia">
+                            <option value="">Selecciones una opcion</option>
+                            <option value="Baja">Baja</option>
+                            <option value="Media">Media</option>
+                            <option value="Alta">Alta</option>
+                        </select>
+                    </div>
+
+                    <div class="grupo">
+                        <label for="Detalle">Detalle de la Solicitud</label>
+                        <textarea id="Detalle" placeholder="Explique brevemente la Solicitud"></textarea>
+                    </div>
+
+                    <div class="grupo">
+                        <label for="archivo">Adjuntar documento:</label>
+                        <input type="file" id="archivo">
+                    </div>
+
+                    <div class="grupo">
+                        <label>
+                            <input type="checkbox" id="autorizacion" class="check">
+                            Autorizo el uso de esta informacion para fines educativos y administrativos.
+                        </label>
+                    </div>
+
+                    <div class="grupo">
+                        <label>
+                            <input type="checkbox" id="veracidad" class="check">
+                            Declaro que la informacion brindada es verdadera
+                        </label>
+                    </div>
+                </fieldset>
+                <div class="botones">
+                    <button type="submit" class="btn-enviar">Enviar formulario</button>
+                    <button type="reset" class="btn-limpiar">Limpiar formulario</button>
+                </div>
+            </div>
+            </form>
+
+            <div id="resumen" class="resumen">
+                <h3>Resumen de la Solicitud enviada</h3>
+                <p id="datosResumen"></p>
+            </div>
+        </div>
+
+        <footer>
+            Centro educativo nueva esperanza© 2026
+        </footer>
+        <!-- Llamado al archivo JavaScript-->
+         <script src="index.js"></script>
+    </body>
+</html>
